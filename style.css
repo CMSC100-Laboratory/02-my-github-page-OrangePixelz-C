@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  color:#2d3142;
+  background-color: #fef5ef;
 }
 
 section {
@@ -7,8 +9,7 @@ section {
   width: 100%;
 }
 
-.hi {
-  background-color: #fef5ef;
+#hi {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -37,7 +38,7 @@ section {
   align-items: end;
 }
 
-.about-me {
+#about-me {
   background-color: #2d3142;
   display: flex;
   flex-direction: row;
@@ -63,4 +64,75 @@ section {
 #about-me-content > h1 {
   color: transparent;
   -webkit-text-stroke: 1px #fef5ef;
+}
+
+#resume-button {
+  background-color: #fef5ef;
+  color: #2d3142;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+  min-height: 65vh;
+}
+
+#projects > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+#projects > div > img {
+  width: 90%;
+  min-height: 100px;
+}
+
+#projects > div:nth-child(even) {
+  background-color: #ceb992;   
+}
+
+#projects > div > h1, #projects > div > h2{  
+  margin-bottom: -8px;
+}
+
+#projects > div:nth-child(odd) > h1, 
+#projects > div:nth-child(odd) > h2,
+#projects > div:nth-child(odd) > .project-language {
+  color: #ceb992; 
+}
+
+#projects > div:nth-child(even) > h2,
+#projects > div:nth-child(even) > .project-language{
+  color: #fef5ef;
+}
+
+#contact {
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-content {
+  padding: 30px;
+  padding-bottom: 35px;
+  color: #fef5ef;
+  background-color: #846c5b;
+}
+
+#contact-details {
+  display: flex;
+  align-items: center;
+}
+
+#contact-details > * {
+  margin-right: 2%;
+  color: #fef5ef
+}
+
+#contact-details > img {
+  max-width: 40px;
 }
