@@ -1,0 +1,138 @@
+body {
+  font-family: sans-serif;
+  color:#2d3142;
+  background-color: #fef5ef;
+}
+
+section {
+  display: inline-block;
+  width: 100%;
+}
+
+#hi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#hi-content {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+#hi-content > h1{
+  font-size: 90px;
+  color: #2d3142;
+}
+
+#hi-content > h2{
+  color: #ceb992;
+}
+
+#hi-img {
+  width: 50%;
+  height: auto;
+  align-items: end;
+}
+
+#about-me {
+  background-color: #2d3142;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#about-me-img {
+  width: 40%;
+  height: auto;
+  padding: 50px 30px;
+}
+
+#about-me-content {
+  background-color: #2d3142;
+  color: #fef5ef;
+  width: 40%;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+#about-me-content > h1 {
+  color: transparent;
+  -webkit-text-stroke: 1px #fef5ef;
+}
+
+#resume-button {
+  background-color: #fef5ef;
+  color: #2d3142;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+  min-height: 65vh;
+}
+
+#projects > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+#projects > div > img {
+  width: 90%;
+  min-height: 100px;
+}
+
+#projects > div:nth-child(even) {
+  background-color: #ceb992;   
+}
+
+#projects > div > h1, #projects > div > h2{  
+  margin-bottom: -8px;
+}
+
+#projects > div:nth-child(odd) > h1, 
+#projects > div:nth-child(odd) > h2,
+#projects > div:nth-child(odd) > .project-language {
+  color: #ceb992; 
+}
+
+#projects > div:nth-child(even) > h2,
+#projects > div:nth-child(even) > .project-language{
+  color: #fef5ef;
+}
+
+#contact {
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-content {
+  padding: 30px;
+  padding-bottom: 35px;
+  color: #fef5ef;
+  background-color: #846c5b;
+}
+
+#contact-details {
+  display: flex;
+  align-items: center;
+}
+
+#contact-details > * {
+  margin-right: 2%;
+  color: #fef5ef
+}
+
+#contact-details > img {
+  max-width: 40px;
+}
