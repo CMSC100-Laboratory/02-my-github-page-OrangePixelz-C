@@ -11,10 +11,10 @@
     4. Create the entry file for your site.
   
 ** Key takeaways **  
-    >> setting a min-height value for a container makes background colors given to its child elements stretch to cover its entire height 
-    >> when using child selectors in the css file, you have to restate all the parents for each type of child selected
-    >> I look really good
-
+    >> setting a min-height value for a container makes background colors given to its child elements stretch to cover its entire height  
+    >> when using child selectors in the css file, you have to restate all the parents for each type of child selected  
+    >> I look really good  
+  
 ** References: ** https://docs.google.com/document/d/1azuhBVl9ip2spLNB3MSOATCuv5wmVEyVGpH0b_af1sw/edit?usp=sharing  
   
 [] Portfolio info/details  
